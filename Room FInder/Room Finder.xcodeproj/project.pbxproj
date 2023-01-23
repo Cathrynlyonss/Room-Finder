@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		446FF75B297F0ED20096FF23 /* Room_FInderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446FF75A297F0ED20096FF23 /* Room_FInderApp.swift */; };
+		446FF75B297F0ED20096FF23 /* Room_FinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446FF75A297F0ED20096FF23 /* Room_FinderApp.swift */; };
 		446FF75D297F0ED20096FF23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446FF75C297F0ED20096FF23 /* ContentView.swift */; };
 		446FF75F297F0ED60096FF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446FF75E297F0ED60096FF23 /* Assets.xcassets */; };
 		446FF762297F0ED60096FF23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446FF761297F0ED60096FF23 /* Preview Assets.xcassets */; };
+		446FF769297F11110096FF23 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446FF768297F11110096FF23 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		446FF757297F0ED20096FF23 /* Room FInder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Room FInder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		446FF75A297F0ED20096FF23 /* Room_FInderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room_FInderApp.swift; sourceTree = "<group>"; };
+		446FF757297F0ED20096FF23 /* Room Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Room Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		446FF75A297F0ED20096FF23 /* Room_FinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room_FinderApp.swift; sourceTree = "<group>"; };
 		446FF75C297F0ED20096FF23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		446FF75E297F0ED60096FF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		446FF761297F0ED60096FF23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		446FF768297F11110096FF23 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 		446FF74E297F0ED20096FF23 = {
 			isa = PBXGroup;
 			children = (
-				446FF759297F0ED20096FF23 /* Room FInder */,
+				446FF759297F0ED20096FF23 /* Room Finder */,
 				446FF758297F0ED20096FF23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +45,21 @@
 		446FF758297F0ED20096FF23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				446FF757297F0ED20096FF23 /* Room FInder.app */,
+				446FF757297F0ED20096FF23 /* Room Finder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		446FF759297F0ED20096FF23 /* Room FInder */ = {
+		446FF759297F0ED20096FF23 /* Room Finder */ = {
 			isa = PBXGroup;
 			children = (
-				446FF75A297F0ED20096FF23 /* Room_FInderApp.swift */,
+				446FF75A297F0ED20096FF23 /* Room_FinderApp.swift */,
 				446FF75C297F0ED20096FF23 /* ContentView.swift */,
+				446FF768297F11110096FF23 /* SettingsView.swift */,
 				446FF75E297F0ED60096FF23 /* Assets.xcassets */,
 				446FF760297F0ED60096FF23 /* Preview Content */,
 			);
-			path = "Room FInder";
+			path = "Room Finder";
 			sourceTree = "<group>";
 		};
 		446FF760297F0ED60096FF23 /* Preview Content */ = {
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		446FF756297F0ED20096FF23 /* Room FInder */ = {
+		446FF756297F0ED20096FF23 /* Room Finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 446FF765297F0ED60096FF23 /* Build configuration list for PBXNativeTarget "Room FInder" */;
+			buildConfigurationList = 446FF765297F0ED60096FF23 /* Build configuration list for PBXNativeTarget "Room Finder" */;
 			buildPhases = (
 				446FF753297F0ED20096FF23 /* Sources */,
 				446FF754297F0ED20096FF23 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Room FInder";
+			name = "Room Finder";
 			productName = "Room FInder";
-			productReference = 446FF757297F0ED20096FF23 /* Room FInder.app */;
+			productReference = 446FF757297F0ED20096FF23 /* Room Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 446FF752297F0ED20096FF23 /* Build configuration list for PBXProject "Room FInder" */;
+			buildConfigurationList = 446FF752297F0ED20096FF23 /* Build configuration list for PBXProject "Room Finder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				446FF756297F0ED20096FF23 /* Room FInder */,
+				446FF756297F0ED20096FF23 /* Room Finder */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446FF769297F11110096FF23 /* SettingsView.swift in Sources */,
 				446FF75D297F0ED20096FF23 /* ContentView.swift in Sources */,
-				446FF75B297F0ED20096FF23 /* Room_FInderApp.swift in Sources */,
+				446FF75B297F0ED20096FF23 /* Room_FinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		446FF752297F0ED20096FF23 /* Build configuration list for PBXProject "Room FInder" */ = {
+		446FF752297F0ED20096FF23 /* Build configuration list for PBXProject "Room Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				446FF763297F0ED60096FF23 /* Debug */,
@@ -327,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		446FF765297F0ED60096FF23 /* Build configuration list for PBXNativeTarget "Room FInder" */ = {
+		446FF765297F0ED60096FF23 /* Build configuration list for PBXNativeTarget "Room Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				446FF766297F0ED60096FF23 /* Debug */,
